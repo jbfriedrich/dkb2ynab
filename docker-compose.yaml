@@ -1,0 +1,7 @@
+services:
+  app:
+    image: hub.frdr.ch/dkb2ynab:latest
+    env_file:
+      - .env
+    build:
+      context: .
